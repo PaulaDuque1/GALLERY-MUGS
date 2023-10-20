@@ -4,7 +4,7 @@
 :root{
     --colorHeader:#000000;
     --fuente:'Roboto', sans-serif;
-    --colorFooter:#02032c;
+    --colorFooter:#010112;
 }
 
 
@@ -88,13 +88,13 @@ nav > ul > li > a{
 
 nav > ul > li > a:hover{
     transform: scale(1,1);
-    background: #3b0505;
+    background: #403d3a;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 
 #selector{
     transform: scale(1,1);
-    background: #0c4195;
+    background: #be9464;
 }
 
 /* sub menu */
@@ -137,7 +137,7 @@ nav ul li ul::before{
 
 nav ul li ul li a{
     display: flex;
-    color: #7c1717;
+    color: #000000;
     padding: 5px;
     padding-left: 14px;
     margin-top: 10px;
@@ -148,7 +148,7 @@ nav ul li ul li a{
 }
 
 nav ul li ul li a:hover{
-    background-color: #4d2222;
+    background-color: #be9464;
     color: #fff;
     transform: scale(1.1);
     padding-left: 30px;
@@ -275,7 +275,7 @@ img{
     margin: 0 auto;
     margin-top: 30px;
     border-width: 2px;
-    border: 2px solid rgb(83, 131, 180);
+    border: 2px solid rgb(47, 50, 54);
     border-color: #271d1d;
     color: #271d1d;
     text-decoration: none;
@@ -433,7 +433,7 @@ img{
     border-radius: 4px;
     letter-spacing: .5px;
     margin-bottom: 12px;
-    background: linear-gradient(120deg, #1c2176 20.70%, #757be9 50.20%, #b4b2b2 80.50%);
+    background: linear-gradient(120deg, #7b6243 20.70%, #757be9 50.20%, #b4b2b2 80.50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -649,7 +649,7 @@ img{
 }
 
 .footer__cta-container .cta__button:hover{
-    border-color: #0c4195;
+    border-color: #363029;
     background-color: #fff;
     color: #0c0c0c;
 }
@@ -739,7 +739,7 @@ img{
 /* Nosotros */
 #historia{
     display: grid;
-    background-color: #070b12;
+    background-color: #4f4842;
     width: 100vw;
     min-height: 100vh;
     place-content: center;
@@ -1114,10 +1114,10 @@ img{
     }
 
     .frontpage__cta-wrapper{
-        background-color: #0c4195;
+        background-color: #363029;
         color: #fff;
         border-radius: 20px;
-        box-shadow: 0 60px 135px rgba(0, 0, 0, 0.343), 0 15px 65px rgba(0,0,0,0.1);
+        box-shadow: 0 60px 135px #00000057, 0 15px 65px rgba(0,0,0,0.1);
         margin-top: 15px;
         opacity: 1;
         transform: rotateX(0deg) translate(0px, 0px);
